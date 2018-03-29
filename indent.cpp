@@ -29,19 +29,4 @@ string addspace(string line,int block){
   return ans + line;
 }
 
-int main(){
-  string line;
-  string ans = "";
-  int blocks = 0;
-  while(getline(cin, line)){
-    blocks -= countChar(line, '}');
-    //cout << blocks << endl;
-    ans +=  addspace(line, blocks);
-    blocks += countChar(line, '{');
-    ans += "\n";
-  }
-  cout << ans << endl;
-  return 0;
-
-
-} 
+ 

@@ -29,7 +29,6 @@ string addspace(string line,int block){
   return ans + line;
 }
 
-
 int main(){
   string line;
   string ans = "";
@@ -43,4 +42,6 @@ int main(){
   }
   cout << ans << endl;
   return 0;
-}
+
+
+} 

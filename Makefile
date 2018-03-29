@@ -8,5 +8,9 @@ main.o: main.cpp indent.h
 
 indent.o: indent.cpp indent.h
 				g++ $(CXXFLAGS) -c indent.cpp
+#Q: added code
+unindent.o: unindent.cpp unindent.h
+				g++ $(CXXFLAGS) -c unindent.cpp
+
 clean:
-				rm -f main.o indent.o
+				rm -f main.o indent.o unindent.o

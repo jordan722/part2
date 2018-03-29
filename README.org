@@ -1,0 +1,14 @@
+CSCI 136 - Lab 8
+
+Quymbee Chen
+Partner: Jordan 
+
+Code has several files for each part of the lab, which were named and made well enough to make sense to another person.
+
+Has two main functions 
+Has double declarations of variables
+
+Apple to Linux code switch was an obstacle (TToTT) since function runs properly on his system, but not mine!
+
+Indent.cpp code works \(^o^)/
+I like that it can read another actual program and not an assumed textfile or something.
